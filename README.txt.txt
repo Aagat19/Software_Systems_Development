@@ -33,19 +33,19 @@ Example:
 
 4. Execute each script in order:
 
-   a. Run q1.sql to create and test ListAllSubscribers().
+   a. Run Q1.sql to create and test ListAllSubscribers().
       Example: CALL ListAllSubscribers();
 
-   b. Run q2.sql to create GetWatchHistoryBySubscriber() procedure.
+   b. Run Q2.sql to create GetWatchHistoryBySubscriber() procedure.
       Example: CALL GetWatchHistoryBySubscriber(1);
 
-   c. Run q3.sql to create AddSubscriberIfNotExists() procedure.
+   c. Run Q3.sql to create AddSubscriberIfNotExists() procedure.
       Example: CALL AddSubscriberIfNotExists('Michael Brown');
 
-   d. Run q4.sql to create SendWatchTimeReport() procedure.
+   d. Run Q4.sql to create SendWatchTimeReport() procedure.
       Example: CALL SendWatchTimeReport();
 
-   e. Run q5.sql to create PrintAllSubscribersWatchHistory() procedure.
+   e. Run Q5.sql to create PrintAllSubscribersWatchHistory() procedure.
       Example: CALL PrintAllSubscribersWatchHistory();
 
 5. All procedures can be executed multiple times and will produce results.
